@@ -28,6 +28,7 @@ func main() {
 			for _, s := range f {
 				sum = sum + strToInt(s)
 			}
+
 			if sum > max {
 				max = sum
 			}
@@ -39,10 +40,6 @@ func main() {
 			break
 		}
 	}
-}
-
-func solve(r, c int) string {
-	return ""
 }
 
 // UTILS
